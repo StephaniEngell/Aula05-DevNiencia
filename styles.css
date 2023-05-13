@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(./assets/projeto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: left;
+    padding: 20px;
+    width: 96rem;
+}
+
+a {
+    color: #8D8D8D;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.wrapper {
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    width: 33rem;
+    color: #8D8D8D;
+}  
+
+h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 6px;
+    margin-top: 9rem;
+    margin-left: 3.8rem;
+}
+
+h2 {
+    color:#F8F8FF;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    color: #9A9A9A;
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 30rem;
+}
